@@ -3,7 +3,7 @@ name: KXStudio Toolbox
 on:
   push:
   schedule:
-    - chron: "37 16 * * 4"
+    - cron: "37 16 * * 4"
 
 jobs:
   build_and_publish:
