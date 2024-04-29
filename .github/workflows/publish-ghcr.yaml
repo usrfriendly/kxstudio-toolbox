@@ -1,7 +1,7 @@
 name: KXStudio Toolbox
 
 on:
-  push
+  push:
   schedule:
     chron: "37 16 * * 4"
 
