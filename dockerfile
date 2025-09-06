@@ -1,4 +1,4 @@
-FROM quay.io/toolbx/ubuntu-toolbox:latest
+FROM quay.io/toolbx/debian-toolbox:latest
 MAINTAINER Arin Lares <arinlares@gmail.com>
 
 RUN sudo apt-get update
