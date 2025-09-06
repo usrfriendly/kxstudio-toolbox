@@ -3,6 +3,7 @@ name: KXStudio Toolbox
 on:
   push:
   schedule:
+  workflow_dispatch:
     - cron: "37 16 * * 4"
 
 jobs:
