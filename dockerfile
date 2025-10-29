@@ -1,5 +1,5 @@
 # FROM quay.io/toolbx/ubuntu-toolbox:latest
-FROM docker.io/debian-stable:latest
+FROM docker.io/debian:stable
 MAINTAINER Arin Lares <arinlares@gmail.com>
 
 RUN sudo apt-get update
