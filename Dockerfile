@@ -2,6 +2,8 @@
 FROM debian:stable
 MAINTAINER Arin Lares <arinlares@gmail.com>
 
+ENV DEBIAN_FRONTEND=noninteractive
+
 RUN apt-get update\ 
 && apt-get install apt-transport-https gpgv wget -y\ 
 && wget https://launchpad.net/~kxstudio-debian/+archive/kxstudio/+files/kxstudio-repos_11.2.0_all.deb && dpkg -i kxstudio-repos_11.2.0_all.deb\ 
