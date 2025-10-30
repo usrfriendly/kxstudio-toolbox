@@ -9,3 +9,5 @@ RUN apt-get update\
 && wget https://launchpad.net/~kxstudio-debian/+archive/kxstudio/+files/kxstudio-repos_11.2.0_all.deb && dpkg -i kxstudio-repos_11.2.0_all.deb\ 
 && dpkg --add-architecture i386\ 
 && apt update
+
+CMD ["/bin/bash"]
